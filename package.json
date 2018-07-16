@@ -14,7 +14,7 @@
   "author": "Kristiyan Tachev",
   "license": "MIT",
   "dependencies": {
-    "@rxdi/core": "^0.0.172"
+    "@rxdi/core": "^0.0.174"
   },
   "devDependencies": {
     "@types/node": "^10.3.4",
