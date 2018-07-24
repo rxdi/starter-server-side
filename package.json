@@ -4,11 +4,11 @@
   "description": "",
   "main": "./src/main.ts",
   "scripts": {
-    "start": "ts-node ./src/main.ts",
-    "build": "parcel build src/main.ts --target node",
+    "start": "./node_modules/.bin/gapi start --local --parcel",
+    "build": "./node_modules/.bin/gapi build",
     "start:prod": "node ./dist/main.js",
+    "start-gapi-basic": "./node_modules/.bin/gapi start --local --path=./src/main.ts",
     "lint": "echo lint",
-    "start-gapi": "gapi start --local --path=./src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kristiyan Tachev",
@@ -17,7 +17,8 @@
     "@rxdi/core": "^0.0.208"
   },
   "devDependencies": {
+    "@gapi/cli": "^1.2.12",
     "@types/node": "^10.3.4",
-    "typescript": "^2.7.1"
+    "typescript": "^2.9.1"
   }
 }

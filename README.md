@@ -22,7 +22,16 @@ Start App Development
 npm run start
 ```
 
+Build app for production
+
+```bash
+npm run build
+```
+
+(Optional)
+
 Production build with [Parcel](https://parceljs.org/getting_started.html)
+Production build is added inside @gapi/cli but if you want you can use parcel-bundler globally to build and start your application as follow:
 
 Install Parcel:
 ```bash
