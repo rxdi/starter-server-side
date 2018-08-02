@@ -14,11 +14,11 @@
   "author": "Kristiyan Tachev",
   "license": "MIT",
   "dependencies": {
-    "@rxdi/core": "^0.0.212"
+    "@rxdi/core": "^0.0.213"
   },
   "devDependencies": {
-    "@gapi/cli": "^1.2.12",
-    "@types/node": "^10.3.4",
-    "typescript": "^2.9.1"
+    "@gapi/cli": "^1.2.16",
+    "@types/node": "^10.5.5",
+    "typescript": "^3.0.1"
   }
 }
