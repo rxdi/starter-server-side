@@ -14,7 +14,7 @@
   "author": "Kristiyan Tachev",
   "license": "MIT",
   "dependencies": {
-    "@rxdi/core": "^0.0.274"
+    "@rxdi/core": "^0.0.276"
   },
   "devDependencies": {
     "@gapi/cli": "^1.2.16",
