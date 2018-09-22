@@ -1,6 +1,6 @@
 {
   "name": "@rxdi/starter-server-side",
-  "version": "0.0.269",
+  "version": "0.0.270",
   "description": "",
   "main": "./src/main.ts",
   "scripts": {
